@@ -1,0 +1,220 @@
+<div class="card card-outline-secondary">
+    <div class="card-header">
+        <h3 class="mb-0">Enter Metrics</h3>
+    </div>
+    <div class="card-body">
+        <form class="form" role="form" autocomplete="off">
+            <div class="form-group row">
+                <label class="col-lg-3 col-form-label form-control-label">Scrum Team</label>
+                <div class="col-lg-9">
+                    <input 
+                        class="form-control" 
+                        type="text" 
+                        placeholder="Scrum Team Xyz 20.xx"
+                        name="scrumTeamName"
+                        [(ngModel)]="metric.scrumTeamName">
+                </div>
+            </div>
+            <hr>
+            <h5>Codebase Health</h5>
+            <div class="form-group row">
+                <label class="col-lg-3 col-form-label form-control-label">Happy</label>
+                <div class="col-lg-9">
+                    <input 
+                        class="form-control" 
+                        type="text" 
+                        placeholder="number of happy team members"
+                        name="codebaseHealthSentiment_happy"
+                        [(ngModel)]="codebaseHealthSentiment.happy">
+                </div>
+                <label class="col-lg-3 col-form-label form-control-label">Neutral</label>
+                <div class="col-lg-9">
+                    <input 
+                        class="form-control" 
+                        type="text" 
+                        placeholder="number of neutral team members"
+                        name="codebaseHealthSentiment_neutral"
+                        [(ngModel)]="codebaseHealthSentiment.neutral">
+                </div>
+                <label class="col-lg-3 col-form-label form-control-label">Unhappy</label>
+                <div class="col-lg-9">
+                    <input 
+                        class="form-control" 
+                        type="text"
+                        placeholder="number of unhappy team members"
+                        name="codebaseHealthSentiment_unhappy"
+                        [(ngModel)]="codebaseHealthSentiment.unhappy">
+                </div>
+            </div>
+            <hr>
+            <h5>Easy To Release</h5>
+            <div class="form-group row">
+                <label class="col-lg-3 col-form-label form-control-label">Happy</label>
+                <div class="col-lg-9">
+                    <input 
+                        class="form-control" 
+                        type="text" 
+                        placeholder="number of happy team members"
+                        name="easyToReleaseSentiment_happy"
+                        [(ngModel)]="easyToReleaseSentiment.happy">
+                </div>
+                <label class="col-lg-3 col-form-label form-control-label">Neutral</label>
+                <div class="col-lg-9">
+                    <input 
+                        class="form-control" 
+                        type="text" 
+                        placeholder="number of neutral team members"
+                        name="easyToReleaseSentiment_neutral"
+                        [(ngModel)]="easyToReleaseSentiment.neutral">
+                </div>
+                <label class="col-lg-3 col-form-label form-control-label">Unhappy</label>
+                <div class="col-lg-9">
+                    <input 
+                        class="form-control" 
+                        type="text"
+                        placeholder="number of unhappy team members"
+                        name="easyToReleaseSentiment_unhappy"
+                        [(ngModel)]="easyToReleaseSentiment.unhappy">
+                </div>
+            </div>
+            <hr>
+            <h5>Pawns Or Players</h5>
+            <div class="form-group row">
+                <label class="col-lg-3 col-form-label form-control-label">Happy</label>
+                <div class="col-lg-9">
+                    <input 
+                        class="form-control" 
+                        type="text" 
+                        placeholder="number of happy team members"
+                        name="pawnsOrPlayersSentiment_happy"
+                        [(ngModel)]="pawnsOrPlayersSentiment.happy">
+                </div>
+                <label class="col-lg-3 col-form-label form-control-label">Neutral</label>
+                <div class="col-lg-9">
+                    <input 
+                        class="form-control" 
+                        type="text" 
+                        placeholder="number of neutral team members"
+                        name="pawnsOrPlayersSentiment_neutral"
+                        [(ngModel)]="pawnsOrPlayersSentiment.neutral">
+                </div>
+                <label class="col-lg-3 col-form-label form-control-label">Unhappy</label>
+                <div class="col-lg-9">
+                    <input 
+                        class="form-control" 
+                        type="text"
+                        placeholder="number of unhappy team members"
+                        name="pawnsOrPlayersSentiment_unhappy"
+                        [(ngModel)]="pawnsOrPlayersSentiment.unhappy">
+                </div>
+            </div>
+            <hr>
+            <h5>Mission</h5>
+            <div class="form-group row">
+                <label class="col-lg-3 col-form-label form-control-label">Happy</label>
+                <div class="col-lg-9">
+                    <input 
+                        class="form-control" 
+                        type="text" 
+                        placeholder="number of happy team members"
+                        name="missionSentiment_happy"
+                        [(ngModel)]="missionSentiment.happy">
+                </div>
+                <label class="col-lg-3 col-form-label form-control-label">Neutral</label>
+                <div class="col-lg-9">
+                    <input 
+                        class="form-control" 
+                        type="text" 
+                        placeholder="number of neutral team members"
+                        name="missionSentiment_neutral"
+                        [(ngModel)]="missionSentiment.neutral">
+                </div>
+                <label class="col-lg-3 col-form-label form-control-label">Unhappy</label>
+                <div class="col-lg-9">
+                    <input 
+                        class="form-control" 
+                        type="text"
+                        placeholder="number of unhappy team members"
+                        name="missionSentiment_unhappy"
+                        [(ngModel)]="missionSentiment.unhappy">
+                </div>
+            </div>
+            <hr>
+            <h5>Teamwork</h5>
+            <div class="form-group row">
+                <label class="col-lg-3 col-form-label form-control-label">Happy</label>
+                <div class="col-lg-9">
+                    <input 
+                        class="form-control" 
+                        type="text" 
+                        placeholder="number of happy team members"
+                        name="teamworkSentiment_happy"
+                        [(ngModel)]="teamworkSentiment.happy">
+                </div>
+                <label class="col-lg-3 col-form-label form-control-label">Neutral</label>
+                <div class="col-lg-9">
+                    <input 
+                        class="form-control" 
+                        type="text" 
+                        placeholder="number of neutral team members"
+                        name="teamworkSentiment_neutral"
+                        [(ngModel)]="teamworkSentiment.neutral">
+                </div>
+                <label class="col-lg-3 col-form-label form-control-label">Unhappy</label>
+                <div class="col-lg-9">
+                    <input 
+                        class="form-control" 
+                        type="text"
+                        placeholder="number of unhappy team members"
+                        name="teamworkSentiment_unhappy"
+                        [(ngModel)]="teamworkSentiment.unhappy">
+                </div>
+            </div>
+            <hr>
+            <h5>Fun</h5>
+            <div class="form-group row">
+                <label class="col-lg-3 col-form-label form-control-label">Happy</label>
+                <div class="col-lg-9">
+                    <input 
+                        class="form-control" 
+                        type="text" 
+                        placeholder="number of happy team members"
+                        name="funSentiment_happy"
+                        [(ngModel)]="funSentiment.happy">
+                </div>
+                <label class="col-lg-3 col-form-label form-control-label">Neutral</label>
+                <div class="col-lg-9">
+                    <input 
+                        class="form-control" 
+                        type="text" 
+                        placeholder="number of neutral team members"
+                        name="funSentiment_neutral"
+                        [(ngModel)]="funSentiment.neutral">
+                </div>
+                <label class="col-lg-3 col-form-label form-control-label">Unhappy</label>
+                <div class="col-lg-9">
+                    <input 
+                        class="form-control" 
+                        type="text"
+                        placeholder="number of unhappy team members"
+                        name="funSentiment_unhappy"
+                        [(ngModel)]="funSentiment.unhappy">
+                </div>
+            </div>
+            <div class="form-group row">
+                <label class="col-lg-3 col-form-label form-control-label"></label>
+                <div class="col-lg-9">
+                    <input 
+                    type="reset" class="btn btn-secondary" value="Cancel" (click)="clearMetricData"
+                    >
+                    <input 
+                        type="button" 
+                        class="btn btn-primary" 
+                        value="Submit Metrics"
+                        (click)="postMetricsToBackend()">
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+<!-- /form user info -->
